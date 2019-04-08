@@ -1,0 +1,3 @@
+# config/cucumber.yml
+default: --profile All --format progress --format html --out=features\report\features_report.html
+All: --tags @All
